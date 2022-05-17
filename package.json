@@ -1,12 +1,12 @@
 {
   "name": "playwright-actionbot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "playwright wrapper package",
   "main": "index.js",
   "scripts": {
     "prepublish":"npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postpublish":"git pull && git add -A && git commit -m \"1.0.2 Published\" && git push && git tag v1.0.2 && git push --tags"
+    "postpublish":"git pull && git add -A && git commit -m \"1.0.3 Published\" && git push && git tag v1.0.3 && git push --tags"
   },
   "author": "",
   "license": "ISC",
